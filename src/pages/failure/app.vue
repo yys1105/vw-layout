@@ -1,12 +1,21 @@
 <template>
-  <div>
-    <h1>This is failure page</h1>
+  <div id="app">
+    <failure></failure>
   </div>
 </template>
-
 <script>
+import Failure from './views/failure';
 export default {
-  components: {},
-  methods: {}
+  data() {
+    return {};
+  },
+  methods: {},
+  components: { Failure }
 };
 </script>
+<style lang="less">
+@import url('normalize.css');
+@import url('~@/assets/styles/main.less');
+</style>
+
+

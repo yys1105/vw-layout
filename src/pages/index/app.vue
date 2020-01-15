@@ -1,8 +1,6 @@
 <template>
-  <div>
-    <a href="/success.html">成功</a>
-    <br>
-    <a href="/failure.html">失败</a>
+  <div id="app">
+    <router-view/>
   </div>
 </template>
 <script>
@@ -14,3 +12,9 @@ export default {
   methods: {}
 };
 </script>
+<style lang="less">
+@import url("normalize.css");
+@import url("~@/assets/styles/main.less");
+</style>
+
+
