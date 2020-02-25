@@ -6,7 +6,7 @@
         <span>章鱼云会议</span>
       </div>
       <div>
-        <span>八方会议，永久免费试用</span>
+        <span>100方会议，永久免费试用</span>
       </div>
     </div>
     <div class="form">

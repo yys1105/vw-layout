@@ -19,7 +19,8 @@ module.exports = {
                 preset: "advanced",
                 autoprefixer: false,
                 "postcss-zindex": false
-            }
+            },
+            exclude: /(\/|\\)(node_modules)(\/|\\)/
         }
     }
 }
